@@ -1,9 +1,15 @@
 name: astrbot_plugin_lively_voice
 display_name: 語音回覆
 desc: 偶爾把短回覆變成語音發出（MiniMax 語音合成），對方要語音時一定用語音
+short_desc: 偶爾把短回覆變成語音（MiniMax），對方要語音時一定用語音
 version: 2.0.0
 author: GUCine
 repo: https://github.com/GUCine/astrbot_plugin_lively_voice
 support_platforms:
   - aiocqhttp
 astrbot_version: ">=4.29.0"
+tags:
+  - 語音
+  - TTS
+  - MiniMax
+  - lively
