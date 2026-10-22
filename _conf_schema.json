@@ -1,0 +1,46 @@
+{
+  "api_key": {
+    "description": "MiniMax API 密鑰",
+    "type": "string",
+    "hint": "沒填就不會發語音",
+    "default": ""
+  },
+  "api_base": {
+    "description": "MiniMax 介面地址",
+    "type": "string",
+    "hint": "國內用 https://api.minimaxi.com/v1，海外用 https://api.minimax.io/v1",
+    "default": "https://api.minimaxi.com/v1"
+  },
+  "group_id": {
+    "description": "MiniMax Group ID",
+    "type": "string",
+    "hint": "老帳號需要，新帳號可以留空",
+    "default": ""
+  },
+  "model": {
+    "description": "語音合成模型",
+    "type": "string",
+    "default": "speech-02-turbo"
+  },
+  "voice_id": {
+    "description": "音色 ID",
+    "type": "string",
+    "hint": "主人私信「語音 音色 xxx」也能改",
+    "default": "female-shaonv"
+  },
+  "speed": {
+    "description": "語速",
+    "type": "float",
+    "default": 1.0
+  },
+  "pitch": {
+    "description": "音調",
+    "type": "int",
+    "default": 0
+  },
+  "owner_qq": {
+    "description": "主人 QQ（留空用門禁插件裡填的）",
+    "type": "list",
+    "default": []
+  }
+}
