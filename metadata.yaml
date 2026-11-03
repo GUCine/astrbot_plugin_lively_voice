@@ -1,8 +1,9 @@
 name: astrbot_plugin_lively_voice
-display_name: 語音回覆
-desc: 偶爾把短回覆變成語音發出（MiniMax 語音合成），對方要語音時一定用語音
-short_desc: 偶爾把短回覆變成語音（MiniMax），對方要語音時一定用語音
-version: 2.0.0
+display_name: Cantus
+cn_name: 語音  # 中文名：她的本領清單、面板這些中文的地方用（10-31 用戶定插件名用拉丁名、中文名照舊）
+desc: 給〈我〉一個發語音的工具，用不用她自己定（BreezeBlue 雲端語音合成）
+short_desc: 她想說的時候用自己的聲音發 QQ 語音
+version: 2.3.0
 author: GUCine
 repo: https://github.com/GUCine/astrbot_plugin_lively_voice
 support_platforms:
@@ -12,5 +13,5 @@ category: 娱乐
 tags:
   - 語音
   - TTS
-  - MiniMax
+  - BreezeBlue
   - lively
